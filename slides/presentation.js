@@ -356,7 +356,7 @@ function slideTrace() {
       fontFace: FONT.body, fontSize: 16, color: COLOR.body, margin: 0,
     });
   });
-  notes(s, "One minute. The lower panel is 25 to 35 seconds, where the cubic model is closer to the measurement (0.31 versus 1.14 rad/s) and the state-space trace sits low. The miss is still the first 10 seconds. Seed 525.");
+  notes(s, "One minute. The lower panel is 25 to 35 seconds. Cubic RMSE is 0.31 against 1.14 for the state-space speed. The physics trace lags until 30 seconds, then overshoots the plateau. The miss on the full run is still the first 10 seconds. Seed 525.");
 }
 
 function slideLimits() {
